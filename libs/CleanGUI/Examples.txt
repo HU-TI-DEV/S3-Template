@@ -1,0 +1,19 @@
+CleanGUI is an abstract GUI-library
+
+Its key benefits are:
++ Display independence: you can change display without changing your app code (*).
++ Multi-task display sharing: multiple tasks can send commands to the display without disrupting eachother.
++ Modern gui-hierarchy. Easy to keep overview of.
++ Support for touchscreens.
+
+CleanGUI does not natively support a specific display.
+It can be connected to existing display drivers via a
+DisplayAdapter class.
+
+For example, the library CleanGUI_ext_for_TFT_eSPI implements
+such a DisplayAdapter for the existing display driver TFT_eSPI.
+
+In the examples folder of CleanGUI_ext_for_TFT_eSPI, you can
+find all examples for CleanGUI.
+
+(*) apart from the initialisation of a specific Display Adapter

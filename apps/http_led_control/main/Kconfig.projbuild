@@ -1,0 +1,10 @@
+menu "Example Configuration"
+
+    config EXAMPLE_PIN_LED
+        int "LED pin number (GPIO)"
+        default 2
+        help
+            For an ESP32, the built-in LED  is on GPIO 2.
+            For other platforms please see the documentation.
+
+endmenu
